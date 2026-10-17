@@ -123,7 +123,7 @@ https://<你的Worker域名>.workers.dev/registerWebhook
 
 ## 致谢与鸣谢
 
-本项目在实现穿透 Cloudflare 防火墙（解决同域或使用了 Cloudflare 服务的外部 API 抛出 `1015 Rate Limited` 及 `1101` 异常）的网络层方案中，深度参考并借鉴了 [cmliussss](https://github.com/cmliu) 在 [edgetunnel](https://github.com/cmliu/edgetunnel) 项目中设计的 **ProxyIP 架构体系与底层实现方案**：
+本项目在实现穿透 Cloudflare 防火墙（解决同域或使用了 Cloudflare 服务的外部 API 抛出 `1015 Rate Limited` 及 `1101` 异常）的网络层方案中，深度参考并借鉴了 [cmliu](https://github.com/cmliu) 在 [edgetunnel](https://github.com/cmliu/edgetunnel) 项目中设计的 **ProxyIP 架构体系与底层实现方案**：
 
 * 利用 `cloudflare:sockets` 建立直接 TCP 会话，结合动态 DoH 解析地址端口池与并发竞速拨号。
 
