@@ -64,9 +64,7 @@
 | `ENV_AI_BASE_URL` | *可选* | AI 服务的 Base URL（开启 AI 必须），例如 `[https://api.openai.com/v1](https://api.openai.com/v1)` 或 `[https://apihub.agnes-ai.com/v1](https://apihub.agnes-ai.com/v1)` |
 | `ENV_AI_TOKEN` | *可选* | AI 平台的 API Key（开启 AI 必须），例如 `sk-xxxxxxxxxxxxxxxxxxxxxxxx` |
 | `ENV_AI_MODEL` | *可选* | 使用的模型标识（开启 AI 必须），例如 `gpt-4o-mini` 或 `agnes-2.5-flash` |
-| `cfip` | *可选* | 穿透 Cloudflare 站点所需的反代 IP/域名池，支持单 IP、带端口或多地址混合，例如 `1.2.3.4:443, proxy.example.com:8443`
-
- |
+| `cfip` | *可选* | 穿透 Cloudflare 站点所需的反代 IP/域名池，支持单 IP、带端口或多地址混合，例如 `1.2.3.4:443, proxy.example.com:8443`|
 | `PROXY_CONCURRENT_DIAL` | *可选* | 底层 Socket 拨号并发数，默认为 `1`<br> |
 
 ---
